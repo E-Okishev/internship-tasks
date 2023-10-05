@@ -1,0 +1,19 @@
+mixin accordion(props)
+	.accordion&attributes(attributes)(data-component='accordion')
+		//Your code here
+		.accordion-content
+			header
+				h2.title 1. Nullam tincidunt vestibulum porttitor
+				button.open-btn
+					+svg('plus')
+			p.description
+				| Cras vel nibh ac nisi dignissim molestie et sit amet dui. Quisque pulvinar vulputate mollis. Curabitur tempor risus turpis, 
+				| ut condimentum arcu volutpat vitae. Curabitur in dolor eu justo viverra suscipit. 
+		.accordion-content
+					header
+						h2.title 1. Nullam tincidunt vestibulum porttitor
+						button.open-btn
+							+svg('plus')
+					p.description
+						| Cras vel nibh ac nisi dignissim molestie et sit amet dui. Quisque pulvinar vulputate mollis. Curabitur tempor risus turpis, 
+						| ut condimentum arcu volutpat vitae. Curabitur in dolor eu justo viverra suscipit. 
